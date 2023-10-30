@@ -1,0 +1,37 @@
+div:nth-child(1) {
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 5px;
+    background-color: blue;
+}
+
+div:nth-child(2) {
+    border: 2px solid crimson;
+    padding: 10px;
+    margin: 5px;
+    background-color: crimson;
+
+    /* if we are use position: relative; it will convert into block level to inline level */
+    /* suppose if it is position: relative; this will not lessions to the browsers view port */
+    /* it starts pointing position from same place itself */
+ 
+
+ position: relative;
+top: 250px;
+right: 120px;
+
+}
+
+div:nth-child(3) {
+    border: 2px solid violet;
+    padding: 10px;
+    margin: 5px;
+    background-color: violet;
+}
+
+div:nth-child(4) {
+    border: 2px solid chocolate;
+    padding: 10px;
+    margin: 5px;
+    background-color: chocolate;
+}

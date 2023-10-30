@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z Index</title>
+    <style>
+        div:nth-child(3){
+            position: absolute;
+        }
+
+        .c1{
+            z-index: 1;
+        }
+        .c2{
+            position: absolute;
+            z-index: 0;
+        }
+
+    
+    </style>
+</head>
+<body>
+ <div style="background-color: cadetblue; margin: 5px; padding: 10px;"> one </div>
+ <div style="background-color: cornflowerblue;margin: 5px;padding: 10px;  "> two</div>
+ <div class = "c1" style="background-color: brown;margin: 5px; padding: 10px;"> Three</div>
+ <div class = "c2" style="background-color: sandybrown;margin: 5px; padding: 10px;"> Four</div>
+    
+</body>
+</html>

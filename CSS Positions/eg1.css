@@ -1,0 +1,36 @@
+div:nth-child(1) {
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 5px;
+    background-color: blue;
+}
+
+div:nth-child(2) {
+    border: 2px solid crimson;
+    padding: 10px;
+    margin: 5px;
+    background-color: crimson;
+
+    /* this will be convert block level element to inline element */
+    /* by default position absolute will lessions to the browser view port */
+    /* the browser view port starts from (0,0) */
+    position: absolute;
+    top: 240px;
+    left: 120px;
+    right: 120px;
+    bottom: 120px;
+}
+
+div:nth-child(3) {
+    border: 2px solid violet;
+    padding: 10px;
+    margin: 5px;
+    background-color: violet;
+}
+
+div:nth-child(4) {
+    border: 2px solid chocolate;
+    padding: 10px;
+    margin: 5px;
+    background-color: chocolate;
+}
