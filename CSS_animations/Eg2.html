@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Animations Example2</title>
+    <style>
+        div{
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        div:nth-child(2):hover{
+            /* for zoom in we use scale */
+            /* scale(width, height) */
+            transform: scale(1.01,3.0);
+            background-color: blueviolet;
+            font-size: large;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <div style="background-color: crimson;">HTML</div>
+    <div style="background-color: cornflowerblue;">css</div>
+    <div style="background-color: seagreen;">js</div>
+    <div style="background-color: slateblue;">React JS</div>
+
+    
+</body>
+</html>

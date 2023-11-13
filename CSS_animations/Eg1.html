@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Animations</title>
+    <style>
+        div{
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        div:first-child{
+        /* moving only x-axis*/
+            transform: translate(100px);
+
+           /* moving  x-axis and y-axis*/
+           transform: translate(100px, 200px);
+           
+           /* moving only y-axis*/
+           transform: translate(0,300px);
+
+        }
+    </style>
+</head>
+<body>
+
+    <div style="background-color: crimson;">HTML</div>
+    <div style="background-color: cornflowerblue;">css</div>
+    <div style="background-color: seagreen;">js</div>
+    <div style="background-color: slateblue;">React JS</div>
+
+    
+</body>
+</html>
